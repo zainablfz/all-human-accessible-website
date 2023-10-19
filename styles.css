@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "leuk";
+  src: url(manrope.ttf);
+}
+
 nav {
   background-color: whitesmoke;
 }
@@ -40,18 +45,77 @@ li:last-child {
 }
 
 header {
-  background-color: #5c8590d0;
-  height: 45em;
   position: relative;
+}
+.homepagina {
+  height: 45em;
   background-image: linear-gradient(90deg, #1e2c30 65%, #5c8692 65%);
+}
+.buurtinitiatieven {
+  background-color: #1e2c30;
+  height: 17em;
 }
 
 h1 {
+  color: white;
   position: absolute;
+}
+
+.titel-home {
   left: 10em;
   bottom: 10em;
   line-break: anywhere;
+}
+
+.titel-bi {
+  left: 17em;
+  bottom: 4em;
+}
+
+header img {
+  position: absolute;
+  width: 19em;
+  height: 19em;
+  bottom: 14em;
+  right: 13em;
+}
+
+p {
+  position: absolute;
   color: white;
+}
+.quote {
+  left: 20em;
+  bottom: 18em;
+}
+
+.evenementen {
+  left: 46.5em;
+  bottom: 13.5em;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+button {
+  position: absolute;
+  font-family: "leuk";
+  text-transform: uppercase;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.doemee-btn {
+  background-color: white;
+  color: black;
+  left: 24em;
+  bottom: 17em;
+}
+.aanmeld-btn {
+  background-color: #5c8692;
+  color: white;
+  left: 37.5rem;
+  bottom: 5em;
 }
 
 /* li:nth-of-type(2) {
