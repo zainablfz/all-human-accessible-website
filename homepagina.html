@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De Buurtcampus West</title>
+    <link rel="stylesheet" href="homepagina.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="homepagina.html"><img src="assets/dehallen-logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">over ons</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">aanmelden</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>De Buurtcampus West</h1>
+        <p>
+          Wil jij meedoen aan leuke activiteiten in jouw buurt? Of wil je jezelf
+          aanbieden?
+        </p>
+        <a href="" class="bekijkmeer-btn">Bekijk meer</a>
+      </div>
+    </section>
+
+    <!-- Opties website -->
+    <section class="opties">
+      <h1>Things to do</h1>
+      <p>kleine beschrijving van wat er te doen is</p>
+
+      <div class="row">
+        <div class="opties-col">
+          <h3>Buurtinitiatieven</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div class="opties-col">
+          <h3>Vragen naar een dienst</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div class="opties-col">
+          <h3>Aanmelden voor activiteiten</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h1>Heb je vragen of opmerkingen?</h1>
+      <a href="" class="bekijkmeer-btn"> Contact ons</a>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+      <div class="social-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!-- JS for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
