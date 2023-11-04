@@ -18,7 +18,7 @@ Link naar de website: https://zainablfz.github.io/all-human-accessible-website/i
 
 <!-- Voeg een mooie poster visual toe 📸 --> <img width="1436" alt="Scherm­afbeelding 2023-11-04 om 22 58 28" src="https://github.com/zainablfz/all-human-accessible-website/assets/144009548/dcc8471a-e19c-40a3-81c2-aabed305a0c3">
 
-<!-- Voeg een link toe naar Github Pages 🌐--> Link naar de website: https://zainablfz.github.io/all-human-accessible-website/index.html
+<!-- Voeg een link toe naar Github Pages 🌐--> 
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? --> De website is alleen gebouwd met HTML & CSS
