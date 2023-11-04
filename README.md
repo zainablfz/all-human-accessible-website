@@ -14,7 +14,9 @@ Ontwerp en maak voor een opdrachtgever een website waar een buurtbewoner meer in
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. --> Op deze website kan iedereen uit de buurt van Amsterdam-West zien wat er allemaal te doen is. Ook de doven, slechtzienden, etc. 
+
 <!-- Voeg een mooie poster visual toe 📸 --> <img width="1436" alt="Scherm­afbeelding 2023-11-04 om 22 58 28" src="https://github.com/zainablfz/all-human-accessible-website/assets/144009548/dcc8471a-e19c-40a3-81c2-aabed305a0c3">
+
 <!-- Voeg een link toe naar Github Pages 🌐--> Link naar de website: https://zainablfz.github.io/all-human-accessible-website/index.html
 
 ## Kenmerken
@@ -25,6 +27,7 @@ Ontwerp en maak voor een opdrachtgever een website waar een buurtbewoner meer in
 ## Bronnen
 
 De Hallen: https://dehallen-amsterdam.nl/
+
 De Hallen huisstijl: https://github.com/fdnd-agency/de-hallen/blob/main/Huisstijl%20De%20Hallen.png
 
 ## Licentie
